@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+
+.container{
+    font-family: "PT Mono", monospace;
+    margin-top: 10%;
+    border: solid 2px black;
+    border-radius: 20px;
+    width: 500px;
+    padding: 10px 0;
+}
+.container-output{
+    margin: 0 20px;
+    border: solid 2px black;
+    text-align: end;
+    font-size: 30px;
+    border-radius: 20px;
+    overflow: hidden;
+}
+button{
+    margin: 3px;
+}
+.container-input{
+    display: flex;
+    justify-content: center;
+}
+.container-input-nam{
+    border: solid 2px black;
+    border-radius: 20px;
+    margin: 3px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 70px 70px 70px;
+    grid-template-rows: repeat(50px,9);
+}
+.container-input-ope{
+    border: solid 2px black;
+    border-radius: 20px;
+    margin: 3px;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 70px 70px;
+    grid-template-rows: repeat(50px,5);
+}
+#bin{
+    grid-column: span 2;
+}
+#oct{
+    grid-column: span 2;
+}
+#hex{
+    grid-column: span 2;
+}
+#dec{
+    grid-column: span 2;
+}
